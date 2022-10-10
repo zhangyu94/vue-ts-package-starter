@@ -13,6 +13,7 @@ defineLibBuild(async () => {
     $(`vite build --config ${PATH}/configs/vite.iife.ts`, { successMessage: 'iife built' }),
     $(`vite build --config ${PATH}/configs/vite.es.ts`, { successMessage: 'esm built' }),
     $(`vite build --config ${PATH}/configs/vite.mjs.ts`, { successMessage: 'esm-node built' }),
+    // Build type declarations.
     $('vue-tsc --project tsconfig.production.json', { successMessage: 'types built' }),
   ])
 })
