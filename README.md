@@ -17,6 +17,11 @@ Inspired by [typescript-npm-package-template](https://github.com/ryansonshine/ty
 - [Issue Templates](https://github.com/ryansonshine/typescript-npm-package-template/tree/main/.github/ISSUE_TEMPLATE)
 - [GitHub Actions](https://github.com/ryansonshine/typescript-npm-package-template/tree/main/.github/workflows)
 
+## Caveats
+
+1. for the compiled package, to use the style, needs to import css from the package
+2. for the compiled package, the linting of props incorrectly highlight hyphenated names as mismatch
+
 **Remove everything from here and above**
 
 ---
