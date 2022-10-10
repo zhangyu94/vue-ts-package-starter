@@ -21,6 +21,7 @@ importers:
       postcss-markdown: ^1.2.0
       prettier: ^2.7.1
       sass: ^1.55.0
+      semver: ^7.3.8
       stylelint: ^14.13.0
       stylelint-config-html: ^1.1.0
       stylelint-config-prettier-scss: ^0.0.1
@@ -52,6 +53,7 @@ importers:
       postcss-markdown: 1.2.0
       prettier: 2.7.1
       sass: 1.55.0
+      semver: 7.3.8
       stylelint: 14.13.0
       stylelint-config-html: 1.1.0_xhez2jbrlm5gsznvnryddq5rcu
       stylelint-config-prettier-scss: 0.0.1_stylelint@14.13.0
